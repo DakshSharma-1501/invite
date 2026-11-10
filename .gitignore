@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+.playwright/
+
+# Agent & local tooling state
+.agents/
+skills-lock.json
+
+# System & temporary files
+.DS_Store
+Thumbs.db
+*.log

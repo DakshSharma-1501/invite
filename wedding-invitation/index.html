@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Invitation | Daksh Sharma & Aadrika Goswami</title>
+
+    <!-- Premium Google Fonts for Royal Indian Wedding Stationery -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Great+Vibes&family=Marcellus&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ================= BROWSER PREVIEW TOOLBAR (Hidden in Print) ================= -->
+    <header class="preview-toolbar" id="previewToolbar">
+      <div class="toolbar-left">
+        <span class="toolbar-badge">ROYAL INDIAN WEDDING STATIONERY</span>
+        <h1 class="toolbar-title">Wedding Invitation Preview</h1>
+        <span class="toolbar-subtitle">Daksh Sharma &amp; Aadrika Goswami</span>
+      </div>
+
+      <div class="toolbar-center">
+        <button class="nav-pill active" onclick="scrollToPage(1)">
+          Page 1: Shreenathji
+        </button>
+        <button class="nav-pill" onclick="scrollToPage(2)">
+          Page 2: Haldi
+        </button>
+        <button class="nav-pill" onclick="scrollToPage(3)">
+          Page 3: Wedding
+        </button>
+      </div>
+
+      <div class="toolbar-right">
+        <div class="zoom-controls">
+          <button class="btn-icon" onclick="adjustZoom(-0.1)" title="Zoom Out">
+            −
+          </button>
+          <span id="zoomLabel" class="zoom-label">85%</span>
+          <button class="btn-icon" onclick="adjustZoom(0.1)" title="Zoom In">
+            +
+          </button>
+          <button class="btn-icon" onclick="resetZoom()" title="Reset Zoom">
+            ↺
+          </button>
+        </div>
+        <button class="btn-print" onclick="window.print()">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path
+              d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"
+            ></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Print / Save as PDF</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ================= PRINT INSTRUCTION BANNER (Browser only) ================= -->
+    <div class="preview-notice" id="previewNotice">
+      <span
+        >💡 <strong>Print Tips for Perfect PDF:</strong> In the print dialog,
+        select <strong>Paper Size: A4</strong>,
+        <strong>Margins: None / Default</strong>, and ensure
+        <strong>Background Graphics</strong> is checked.</span
+      >
+      <button
+        class="btn-close-notice"
+        onclick="this.parentElement.style.display = 'none'"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- ================= MAIN INVITATION CONTAINER ================= -->
+    <main class="invitation-deck" id="invitationDeck">
+      <!-- ========================================================== -->
+      <!-- PAGE 1: SHREENATHJI THEME (24 JANUARY 2027)                -->
+      <!-- ========================================================== -->
+      <div class="card-wrapper" id="cardWrapper1">
+        <div class="page-meta-header">
+          <span class="meta-tag">PAGE 1 OF 3</span>
+          <span class="meta-desc"
+            >PRE-WEDDING CELEBRATIONS • SHREENATHJI THEME</span
+          >
+        </div>
+
+        <section class="invitation-sheet page-1" id="page1">
+          <!-- High-Resolution Artwork Layer -->
+          <div class="sheet-bg bg-shreenathji"></div>
+
+          <!-- Pure Typographic Content Layer (Zero Boxes) -->
+          <div class="sheet-inner content-page-1">
+            <!-- Top Spiritual Invocation -->
+            <div class="invocation-block">
+              <span class="deity-mantra"
+                >॥ श्री गणेशाय नमः ॥ &nbsp;&nbsp;•&nbsp;&nbsp; ॥ श्री श्रीनाथजी
+                प्रसन्नः ॥</span
+              >
+            </div>
+
+            <!-- Auspicious Beginning Header -->
+            <div class="event-hero-title">
+              <span class="ornamental-eyebrow"
+                >A U S P I C I O U S &nbsp; B E G I N N I N G</span
+              >
+              <h2 class="title-primary">WEDDING CELEBRATIONS</h2>
+              <div class="gold-filigree-divider">
+                <span class="filigree-line"></span>
+                <span class="filigree-flourish">❖</span>
+                <span class="filigree-line"></span>
+              </div>
+            </div>
+
+            <!-- Auspicious Invitation Prose -->
+            <div class="invitation-prose">
+              <p class="blessing-line">
+                With the Divine Blessings of God and Our Elders
+              </p>
+              <p class="cordial-invite">
+                We cordially invite you to join us in celebrating the joyous
+                wedding festivities and bless the couple as they embark on a
+                beautiful journey of togetherness.
+              </p>
+            </div>
+
+            <!-- Couple Presentation in Classical Typography -->
+            <div class="couple-spotlight">
+              <h1 class="groom-name">DAKSH SHARMA</h1>
+              <div class="couple-script-joint">
+                <span class="script-weds">and</span>
+              </div>
+              <h1 class="bride-name">AADRIKA GOSWAMI</h1>
+            </div>
+
+            <!-- Date Anchor (Pure Typography, No Box) -->
+            <div class="date-hero-line">
+              <span class="date-bullet">✦</span>
+              <span class="date-text"
+                >24TH JANUARY 2027 &nbsp;|&nbsp; SUNDAY</span
+              >
+              <span class="date-bullet">✦</span>
+            </div>
+
+            <!-- Ceremonies Block (Pure Typography, No Boxes) -->
+            <div class="ceremonies-flow">
+              <div class="ceremony-item">
+                <h3 class="ceremony-title">MEHNDI CEREMONY</h3>
+                <p class="ceremony-time">11:30 AM onwards</p>
+                <p class="ceremony-meal">~ Followed by Lunch ~</p>
+              </div>
+
+              <div class="ceremony-divider-flourish">
+                <span class="mini-gem">❖</span>
+              </div>
+
+              <div class="ceremony-item">
+                <h3 class="ceremony-title">LADIES SANGEET CEREMONY</h3>
+                <p class="ceremony-time">6:30 PM onwards</p>
+                <p class="ceremony-meal">~ Followed by Dinner ~</p>
+              </div>
+            </div>
+
+            <!-- Family Tribute (Pure Typography, No Boxes) -->
+            <div class="family-editorial-section">
+              <div class="family-intro-tag">
+                <span class="f-ornament">~</span>
+                <span>WITH THE BLESSINGS OF</span>
+                <span class="f-ornament">~</span>
+              </div>
+
+              <div class="family-two-columns">
+                <div class="family-col bride-col">
+                  <span class="col-side-label">BRIDE’S SIDE</span>
+                  <p class="family-line">
+                    <span class="role-desc">Mother:</span>
+                    <span class="person-name">Mrs. Swasti Goswami</span>
+                  </p>
+                </div>
+
+                <div class="family-col-divider"></div>
+
+                <div class="family-col groom-col">
+                  <span class="col-side-label">GROOM’S SIDE</span>
+                  <p class="family-line">
+                    <span class="role-desc">Parents:</span>
+                    <span class="person-name"
+                      >Mr. Hemant Sharma &amp; Mrs. Shweta Sharma</span
+                    >
+                  </p>
+                  <p class="family-line">
+                    <span class="role-desc">Brother:</span>
+                    <span class="person-name">Mr. Bhavya Sharma</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- ========================================================== -->
+      <!-- PAGE 2: SHIV-PARVATI HALDI THEME (25 JANUARY 2027)         -->
+      <!-- ========================================================== -->
+      <div class="card-wrapper" id="cardWrapper2">
+        <div class="page-meta-header">
+          <span class="meta-tag">PAGE 2 OF 3</span>
+          <span class="meta-desc"
+            >HALDI &amp; PRE-WEDDING CELEBRATIONS • SHIV-PARVATI THEME</span
+          >
+        </div>
+
+        <section class="invitation-sheet page-2" id="page2">
+          <!-- High-Resolution Artwork Layer -->
+          <div class="sheet-bg bg-haldi"></div>
+
+          <!-- Pure Typographic Content Layer (Zero Boxes) -->
+          <div class="sheet-inner content-page-2">
+            <!-- Top Spiritual Invocation -->
+            <div class="invocation-block arch-clearance">
+              <span class="deity-mantra"
+                >॥ ॐ नमः शिवाय ॥ &nbsp;&nbsp;•&nbsp;&nbsp; ॥ श्री गणेशाय नमः
+                ॥</span
+              >
+            </div>
+
+            <!-- Date Anchor (Pure Typography, No Box) -->
+            <div class="date-hero-line haldi-date">
+              <span class="date-bullet">❖</span>
+              <span class="date-text"
+                >25TH JANUARY 2027 &nbsp;|&nbsp; MONDAY</span
+              >
+              <span class="date-bullet">❖</span>
+            </div>
+
+            <!-- Section Title -->
+            <div class="event-hero-title compact">
+              <span class="ornamental-eyebrow"
+                >AUSPICIOUS RITUALS &amp; FESTIVITIES</span
+              >
+              <h2 class="title-primary">PRE-WEDDING CELEBRATIONS</h2>
+              <p class="couple-mention-script">Daksh &amp; Aadrika</p>
+              <div class="gold-filigree-divider small">
+                <span class="filigree-line"></span>
+                <span class="filigree-flourish">🪷</span>
+                <span class="filigree-line"></span>
+              </div>
+            </div>
+
+            <!-- 6 Ceremonies Schedule (Pure Typography, No Boxes, No Stripes) -->
+            <div class="haldi-schedule-clean">
+              <!-- 1. Haldi -->
+              <div class="schedule-entry">
+                <div class="schedule-head">
+                  <span class="entry-title">HALDI CEREMONY</span>
+                  <span class="entry-time">10:00 AM – 11:30 AM</span>
+                </div>
+                <p class="entry-sub">Followed by Traditional Sajjan Bhog</p>
+              </div>
+              <div class="schedule-divider-line"></div>
+
+              <!-- 2. Chooda -->
+              <div class="schedule-entry">
+                <div class="schedule-head">
+                  <span class="entry-title">CHOODA CEREMONY</span>
+                  <span class="entry-time">3:30 PM onwards</span>
+                </div>
+                <p class="entry-sub">Auspicious Bridal Bangle Rituals</p>
+              </div>
+              <div class="schedule-divider-line"></div>
+
+              <!-- 3. Var Nikasi -->
+              <div class="schedule-entry">
+                <div class="schedule-head">
+                  <span class="entry-title"
+                    >GROOM’S DEPARTURE (VAR NIKASI)</span
+                  >
+                  <span class="entry-time">5:00 PM onwards</span>
+                </div>
+                <p class="entry-sub">
+                  Traditional Ghudchadhi &amp; Royal Departure
+                </p>
+              </div>
+              <div class="schedule-divider-line"></div>
+
+              <!-- 4. Baraat & Toran -->
+              <div class="schedule-entry">
+                <div class="schedule-head">
+                  <span class="entry-title"
+                    >BARAAT WELCOME &amp; TORAN CEREMONY</span
+                  >
+                  <span class="entry-time">6:30 PM onwards</span>
+                </div>
+                <p class="entry-sub">
+                  Grand Reception of the Groom’s Procession
+                </p>
+              </div>
+              <div class="schedule-divider-line"></div>
+
+              <!-- 5. Jaimala -->
+              <div class="schedule-entry highlight-jaimala">
+                <div class="schedule-head">
+                  <span class="entry-title">JAIMALA (VARMALA CEREMONY)</span>
+                  <span class="entry-time">7:00 PM onwards</span>
+                </div>
+                <p class="entry-sub">Exchange of Sacred Garland Blessings</p>
+              </div>
+              <div class="schedule-divider-line"></div>
+
+              <!-- 6. Wedding Reception -->
+              <div class="schedule-entry">
+                <div class="schedule-head">
+                  <span class="entry-title">WEDDING RECEPTION</span>
+                  <span class="entry-time">8:00 PM onwards</span>
+                </div>
+                <p class="entry-sub">Followed by Dinner</p>
+              </div>
+            </div>
+
+            <!-- Bottom Sacred Sanskrit Notation -->
+            <div class="haldi-footer-mantra">
+              <span class="mantra-text"
+                >॥ सर्वमंगल मांगल्ये शिवे सर्वार्थ साधिके ॥</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- ========================================================== -->
+      <!-- PAGE 3: SHIV-PARVATI MAIN WEDDING THEME (26 JANUARY 2027)  -->
+      <!-- ========================================================== -->
+      <div class="card-wrapper" id="cardWrapper3">
+        <div class="page-meta-header">
+          <span class="meta-tag">PAGE 3 OF 3</span>
+          <span class="meta-desc"
+            >MAIN WEDDING CEREMONY • SHIV-PARVATI THEME</span
+          >
+        </div>
+
+        <section class="invitation-sheet page-3" id="page3">
+          <!-- High-Resolution Artwork Layer -->
+          <div class="sheet-bg bg-wedding"></div>
+
+          <!-- Pure Typographic Content Layer (Zero Boxes) -->
+          <div class="sheet-inner content-page-3">
+            <!-- Top Spiritual Invocation -->
+            <div class="invocation-block arch-clearance">
+              <span class="deity-mantra"
+                >॥ वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ॥</span
+              >
+              <span class="deity-submantra"
+                >॥ निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥</span
+              >
+            </div>
+
+            <!-- Date Anchor (Pure Typography, No Box) -->
+            <div class="date-hero-line wedding-date">
+              <span class="date-bullet">❖</span>
+              <span class="date-text"
+                >26TH JANUARY 2027 &nbsp;|&nbsp; TUESDAY</span
+              >
+              <span class="date-bullet">❖</span>
+            </div>
+
+            <!-- Wedding Grand Title -->
+            <div class="event-hero-title wedding-hero">
+              <span class="ornamental-eyebrow"
+                >THE SACRED UNION OF TWO SOULS</span
+              >
+              <h2 class="title-primary wedding-title">THE WEDDING CEREMONY</h2>
+              <div class="gold-filigree-divider">
+                <span class="filigree-line"></span>
+                <span class="filigree-flourish">❖</span>
+                <span class="filigree-line"></span>
+              </div>
+            </div>
+
+            <!-- Couple Royal Presentation -->
+            <div class="couple-spotlight grand">
+              <h1 class="groom-name">DAKSH SHARMA</h1>
+              <div class="couple-script-joint">
+                <span class="script-takes-vows"
+                  >takes the sacred vows with</span
+                >
+              </div>
+              <h1 class="bride-name">AADRIKA GOSWAMI</h1>
+            </div>
+
+            <!-- Main Wedding Muhurat (Pure Typographic Centerpiece, No Box) -->
+            <div class="muhurat-pure-typography">
+              <div class="muhurat-headline">
+                <span class="m-flourish">🪷</span>
+                <span class="m-text">AUSPICIOUS WEDDING MUHURAT</span>
+                <span class="m-flourish">🪷</span>
+              </div>
+
+              <div class="muhurat-time-row">
+                <span class="m-time-num">6:20 AM</span>
+                <span class="m-time-label">ONWARDS</span>
+              </div>
+
+              <p class="muhurat-rituals-line">
+                Sacred Vedic Rituals and the Seven Sacred Vows (Saat Phere)
+              </p>
+            </div>
+
+            <div class="gold-center-dot">❖ &nbsp; ❖ &nbsp; ❖</div>
+
+            <!-- Vidai Ceremony (Pure Typography, No Box) -->
+            <div class="vidai-pure-typography">
+              <span class="vidai-title">VIDAI CEREMONY</span>
+              <span class="vidai-separator">•</span>
+              <span class="vidai-time">11:30 AM</span>
+              <p class="vidai-subtext">
+                With Warm Blessings and Heartfelt Prayers
+              </p>
+            </div>
+
+            <!-- Warm Personal Closing Note -->
+            <div class="warm-closing-message">
+              <p class="closing-quote">
+                “Your gracious presence and blessings will make these
+                celebrations truly special and memorable. We look forward to
+                celebrating these precious moments with you.”
+              </p>
+            </div>
+
+            <!-- Compliments & Host Signature -->
+            <div class="compliments-footer">
+              <p class="compliments-label">WITH BEST COMPLIMENTS FROM:</p>
+              <p class="compliments-names">Sharma &amp; Goswami Families</p>
+              <p class="compliments-sub">Relatives &amp; Friends</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
